@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+    <script th:src="@{/js/script.js}"></script>
+    </script>
+    <title>Engenharia VR</title>
+</head>
+<body id="body_index">
+    <nav>
+		<h1 id="logonav">V<span>R</span></h1>
+		<div id="menu_itens">
+			<div id="menu_itens_container">
+				<p><a href="/">Inicio</a></p>
+				<p><a href="/about">Sobre</a></p>
+				<p><a href="/projects">Projetos</a></p>
+			</div>
+		</div>
+		<div id="container_contato" onclick="mostrarjanela()">
+			<div id="container_border">
+				<h1>Entre em Contato</h1>
+			</div>
+		</div>
+    </nav>
+    <div id="container_janela" onclick="fecharjanela()">
+      <div id="janela_contato">
+        <h1>Telefone:</h1>
+        <p>(51) 99403-5051</p>
+        <h1>Email:</h1>
+        <p>vrengenhariacivil@email.com</p>
+      </div>
+    </div>
+    <div id="text_container">
+        <div id="filler"></div>
+        <h1>Soluções Integradas<br> para o seu projeto</h1>
+        <p>Atuamos com um processo integrado de soluções em engenharia. <br>Projeto, Construção e Manutenção. Todas as soluções com o conceito <br>de atendimento único e exclusivo para suas necessidades.</p>
+    </div>
+</body>
+</html>
